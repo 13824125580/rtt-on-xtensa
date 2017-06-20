@@ -1,4 +1,3 @@
-
 all:
 	@echo "start compile"
 	@scons

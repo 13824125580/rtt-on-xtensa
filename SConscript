@@ -1,4 +1,7 @@
 from building import *
+import os
+env=Environment(ENV=os.environ)
+env.PrependENVPath('PATH','/home/zilong/WorkSpace/IOT/esp32/rtthread-esp/xtensa-esp32-elf/bin')
 
 cwd = str(Dir('#'))
 objs = []
